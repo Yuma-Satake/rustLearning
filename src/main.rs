@@ -1,6 +1,7 @@
 use std::io;
 
 fn main() {
+    print!("Hello, world!");               // Hello, world!
     println!("Guess the number!");          // 数を当ててごらん
     println!("Please input your guess.");   // ほら、予想を入力してね
     let mut guess = String::new();
